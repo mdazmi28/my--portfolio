@@ -1,12 +1,15 @@
-// import React from 'react';
 
-import BaseFile from "./pages/BaseFile";
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import BaseFile from './pages/BaseFile';
 
 const App = () => {
   return (
-    <div>
-      <BaseFile/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        {/* Define the path and element */}
+        <Route path="/" element={<BaseFile />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 

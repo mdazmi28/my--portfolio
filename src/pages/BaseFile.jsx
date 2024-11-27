@@ -8,7 +8,7 @@ import SocialLinks from "../components/SocialLinks";
 const BaseFile = () => {
   return (
     <div className="container mx-auto px-2 md:px-4">
-      <div className="">
+      <div className="flex flex-col gap-4">
         <HeroSection/>
         <SocialLinks/>
         <ExperienceProfile/>
