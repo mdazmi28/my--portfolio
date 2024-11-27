@@ -7,7 +7,7 @@ const ExperienceProfile = () => {
     const [active, setActive] = useState("Job"); // 'Job' or 'Edu' state
 
     return (
-        <div className="">
+        <div className="bg-slate-600 py-3 px-3">
             <div className="flex md:flex-row w-full gap-4">
                 {/* Left Side */}
                 <div className="flex justify-center items-center w-1/2">
