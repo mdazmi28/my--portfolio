@@ -12,7 +12,7 @@ const BaseFile = () => {
       <div>
         <HamburgerMenu/>
       </div>
-      <div className="flex flex-col gap-8 overflow-y-auto">
+      <div className="flex flex-col gap-8 overflow-y-auto px-4">
         <HeroSection/>
         <SocialLinks/>
         <ExperienceProfile/>
