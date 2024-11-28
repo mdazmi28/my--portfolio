@@ -9,7 +9,7 @@ const socialLinks = [
 
 const SocialLinks = () => {
   return (
-    <div className="px-3">
+    <div className="flex px-3">
       <div className="grid grid-cols-2 md:grid-cols-4 justify-center items-center gap-4">
       {socialLinks.map((item, index) => (
         <a key={index} href={item.link} target="_blank" rel="noopener noreferrer"> {/* Use <a> tag for external links */}

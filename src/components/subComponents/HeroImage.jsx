@@ -8,7 +8,7 @@ const HeroImage = () => {
                 src={HeroSectionImage} // Import the image
                 alt="Hero Section Image"
             />
-            <h1 className='text-2xl font-bold text-gray-800'>Md Azmi Siddique</h1>
+            <h1 className='text-2xl font-bold text-black dark:text-white'>Md Azmi Siddique</h1>
         </div>
     );
 };
